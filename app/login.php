@@ -16,11 +16,11 @@
       </div>
 
       <div class="nav-menu">
-        <a href="#">Home</a>
-        <a href="#">Information</a>
-        <a href="#">Booking</a>
+        <a href="index.php">Home</a>
+        <a href="informatie.php">Information</a>
+        <a href="boeking.php">Booking</a>
 
-        <button class="login-btn" class="active">Login</button>
+        <a href="login.php" class="login-btn" class="active">Login</a>
       </div>
 
     </nav>
