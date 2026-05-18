@@ -1,4 +1,4 @@
-/*index*/
+/*body (global)*/
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +7,10 @@
 
 body {
   font-family: "futurama", sans-serif;
+  /*menu */
 }
 
-/* NAVBAR */
+/* NAVBAR (gloabl) */
 .navbar {
   width: 100%;
   height: 80px;
@@ -97,14 +98,19 @@ body {
     font-size: 16px;
   }
 }
-
-/*informatie*/
-
+/*index (only the page) */ 
 
 
 
 
 
-/*boeking*/
-/*login*/
-/*admin*/
+/*informatie (only the page)*/
+
+
+
+
+
+
+/*boeking (only the page)*/
+/*login (only the page)*/
+/*admin (only the page)*/
