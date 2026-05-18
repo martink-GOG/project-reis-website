@@ -19,8 +19,7 @@
         <a href="#" class="active">Home</a>
         <a href="#">Information</a>
         <a href="#">Booking</a>
-
-      <button class="login-btn active">Login</button>
+        <button class="login-btn active">Login</button>
       </div>
 
     </nav>
