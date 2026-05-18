@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>informatie/title>
+    <title>information</title>  
     <link rel="stylesheet" href="reisbureau.css">
 </head>
   <body>
@@ -17,10 +17,10 @@
 
       <div class="nav-menu">
         <a href="index.php">Home</a>
-        <a href="informatie.php"class="active"></a>
-        <a href="boeking.php">Booking</a>
+        <a href="informatie.php">Information</a>
+        <a href="boeking.php" class="active">Booking</a>
 
-         <a href="login.php" class="login-btn active">Login</a>
+        <a href="login.php" class="login-btn active">Login</a>
       </div>
 
     </nav>
