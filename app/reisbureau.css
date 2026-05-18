@@ -10,6 +10,23 @@ body {
   /*menu */
 }
 
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #b8971d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+footer p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
 /* NAVBAR (gloabl) */
 .navbar {
   width: 100%;
@@ -56,26 +73,20 @@ body {
 
 /* LOGIN BUTTON */
 .login-btn {
-  background-color: #e9ea89;
-  color: #b8971d;
-
+  background-color: #b8971d;
+  color: #e9ea89;
   border: none;
   outline: none;
-
   padding: 14px 28px;
-
   border-radius: 14px;
-
   font-size: 18px;
   font-weight: 500;
-
   cursor: pointer;
-
   transition: 0.3s ease;
 }
 
 .login-btn:hover {
-  background-color: white;
+  background-color: #e9ea89;
   transform: translateY(-2px);
 }
 
@@ -98,9 +109,51 @@ body {
     font-size: 16px;
   }
 }
-/*index (only the page) */ 
 
+/*index (only the page) */
+.background {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  background-color: black;
+  height: 450px;
+  color: white;
+  column-count: 3;
+}
+.background h1 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.background p {
+  font-size: 25px;
+  font-weight: 400;
+  width: 80%;
+  text-align: center;
+}
+.booking-btn {
+  background-color: #b8971d;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
 
+.booking-btn:hover {
+  background-color: #e9ea89;
+  color: white;
+  transform: translateY(-2px);
+}
 
 
 
