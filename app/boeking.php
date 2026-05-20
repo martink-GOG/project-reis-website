@@ -9,6 +9,11 @@
 </head>
 
 <body>
+  <script>
+
+
+  
+</script>
   <!--navigation menu -->
   <nav class="navbar">
     <div class="logo">
@@ -23,7 +28,7 @@
     </div>
   </nav>
   <!--achtergrond -->
-  <div class="background">
+  <div class="darkBackground">
     <h1>test</h1>
   </div>
   <!--reserveringsformulier -->

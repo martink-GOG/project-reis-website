@@ -7,6 +7,11 @@
    <link rel="stylesheet" href="reisbureau.css">
 </head>
   <body>
+    <script>
+
+
+  
+</script>
     <!--navigation menu -->
     <nav class="navbar">
       <div class="logo">

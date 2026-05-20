@@ -111,7 +111,8 @@ footer p {
 }
 
 /*index (only the page) */
-.background {
+/*background 1 (black) */
+.darkBackground {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -120,16 +121,16 @@ footer p {
   align-content: center;
   width: 100%;
   background-color: black;
-  height: 450px;
+  height: 550px;
   color: white;
   column-count: 3;
 }
-.background h1 {
-  font-size: 70px;
+.darkBackground h1 {
+  font-size: 62px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
-.background p {
+.darkBackground p {
   font-size: 25px;
   font-weight: 400;
   width: 80%;
@@ -147,6 +148,7 @@ footer p {
   cursor: pointer;
   transition: 0.3s ease;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 .booking-btn:hover {
@@ -154,7 +156,62 @@ footer p {
   color: white;
   transform: translateY(-2px);
 }
+/*background 2 (white) */
+.whiteBackground {
+    width: 100%;
+    height: 500px;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+}
 
+.whiteBackground h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.card {
+    width: 300px;
+}
+
+.imagePictogram1{
+    width: 100px;
+    height: 100px;
+    background-color: #b89417;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 40px;
+
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+
+
+/*background 3 (blue) */
 
 
 /*informatie (only the page)*/
