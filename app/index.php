@@ -59,7 +59,7 @@ Beleef de Magie van de Sahara</h1>
         </div>
 
         <div class="card">
-            <div class="imagePictogram1"><img src="url" alt="alternatetext"></div>
+            <div class="imagePictogram1"><img src="" alt="alternatetext">
             <h2>Flexibele Opties</h2> 
             <p>
                 Kies uit dagtrips, meerdaagse expedities of op maat gemaakte
